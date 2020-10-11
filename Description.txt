@@ -1,0 +1,30 @@
+Caso #4, 6%
+Topic: #performancesense
+Due date: 10-19-2020, 06:00pm
+Description:
+Seleccione uno de los siguientes objetos animados, solo uno:
+• Árbol de fractales
+• Reloj de arena
+• Panal (como el de las abejas)
+Utilizando processing https://processing.org/, proceda a programar los algoritmos shellshort y radixsort.
+Cree una función que reciba una cantidad, con esa cantidad proceda a crear un arreglo de números
+aleatorios y mande a ejecutar cada algoritmo de ordenamiento en paralelo. Visualmente de igual forma
+en paralelo, anime dos instancias del objeto animado que seleccionó. Ambas instancias deben verse
+exactamente del mismo tamaño en la pantalla.
+Para realizar la animación debe seguir las siguientes reglas:
+1. Cada instancia del objeto animado está asociada a uno de los algoritmos de ordenamiento
+2. El objetivo es que el objeto se anime tan rápido como el algoritmo de ordenamiento avance
+3. El objeto animado da un paso tanto pronto su algoritmo de ordenamiento tenga K elementos
+ordenados garantizados (es decir, ya esos K elementos están ordenados y no van a cambiar su
+posición)
+4. El objeto animado es de tamaño fijo, por ende, requerirá P pasos para completar el 100% de su
+animación; con esto, debe establecer una proporción k = cantidad elementos a ordenar / P, donde P
+debe ser mínimo 100
+5. Con respecto a la animación se sugiere la siguiente para cada tipo de objeto, pero puede mejorarla:
+a. Árbol: inicia con el tronco dibujado, cada K elementos ordenados pinta una nueva hoja
+b. Reloj de arena: Inicia con todos los granos de arena en la parte superior, cada vez que se
+ordenan K elementos cae un grano de arena
+c. Panal: el panal inicia con un centro en forma de celda de panal, por cada K elementos que se
+ordenan, se agrega una celda adyacente nueva al panal
+Este caso se va a hacer en parejas, las cuales van a ser asignadas por el profesor. El caso se revisará con
+cita a partir del 19 de octubre. 
